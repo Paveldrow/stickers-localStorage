@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Заметки</title>
+</head>
+
+<body>
+  <h1>Sticky Note</h1>
+  <form>
+    <label for="note-color">
+      <select class="color-select" name="note color" id="note-color">
+        <option class="yellow" value="LightGoldenRodYellow" selected>Жёлтый</option>
+        <option value="PaleGreen">Зеленый</option>
+        <option value="LightPink">Розовый</option>
+        <option value="LightBlue">Голубой</option>
+      </select>
+    </label>
+    <input class="note-text" type="text">
+    <button class="add-button" type="button">Добавить заметку</button>
+    <button class="clear-button" type="button">Удалить все заметки</button>
+  </form>
+  <ul class="stickies"></ul>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

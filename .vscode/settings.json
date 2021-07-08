@@ -1,0 +1,9 @@
+{
+  "liveServer.settings.port": 5501,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[css]": {
+    "editor.defaultFormatter": "remimarsal.prettier-now"
+  },
+  "prettier.requireConfig": true,
+  "prettier.requirePragma": true
+}
